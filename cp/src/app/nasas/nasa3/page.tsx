@@ -1,8 +1,8 @@
 "use client";  // Indica que esse componente é um Client Component
-import { NasaImage } from '../../types/types';
+import { NasaImage } from '../../../types/types';
 import { useEffect, useState } from "react";
 
-export default function Nasa() {
+export default function Nasa3() {
   const [images, setImages] = useState<NasaImage[]>([]);  
   const [error, setError] = useState<string | null>(null);  
 
@@ -11,9 +11,7 @@ export default function Nasa() {
       const apiKey = 'mGUQgkvm096rMdjLw9IDjzOrUHeOZJyeeI9dR6Qy';
       const fetchedImages: NasaImage[] = [];  // Array para armazenar as imagens
       const dates = [
-        '2024-09-28', // Data da primeira imagem
-        '2024-09-27', // Data da segunda imagem
-        '2024-09-26'  // Data da terceira imagem
+        '2024-09-29'
       ];
 
       try {
@@ -54,11 +52,7 @@ export default function Nasa() {
     <div>
       {images.map((image) => (
         <div key={image.date}>
-          <h1>{image.title}</h1>  {/* Título da imagem retornada */}
-          <div>
-            <img src={image.url} alt={image.title} style={{ width: '500px', height: 'auto' }} /> {/* Imagem dinâmica */}
-            <p>{image.explanation}</p>  {/* Explicação da imagem */}
-          </div>
+            <img src={image.url} alt={image.title} style={{ width: '500px', height: 'auto' }} /> 
         </div>
       ))}
     </div>

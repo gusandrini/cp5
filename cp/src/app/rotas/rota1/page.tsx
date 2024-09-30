@@ -1,6 +1,10 @@
+import Nasa from "@/app/nasas/nasa/page"
+
+
 export default function RotaUm() {
     return (
       <div className="container">
+          <Nasa/>
           <div>
             <h1  className="titulo">1. Catastrofismo Celestial</h1>
             <p>O catastrofismo celestial, como proposto por Immanuel Velikovsky em Worlds in Collision, é a ideia de que eventos cósmicos violentos, envolvendo grandes corpos celestes, tiveram um impacto direto e devastador sobre a Terra e moldaram a história da humanidade. Esse conceito vai contra a visão científica predominante, que se baseia no uniformitarianismo, a ideia de que os processos geológicos e climáticos acontecem de forma gradual ao longo de milhões de anos.</p>
@@ -25,7 +29,7 @@ export default function RotaUm() {
 
           <div className="conteudo">
             <h3>3. Aproximações Repetidas</h3>
-            <p>Velikovsky sugeriu que o planeta Vênus fez mais de uma passagem perigosa pela Terra. Cada uma dessas aproximações teria causado novos desastres. Uma delas, segundo ele, aconteceu durante o Êxodo dos hebreus do Egito, causando as Dez Pragas. Outra aproximação teria ocorrido durante a batalha de Josué, quando o Sol e a Lua teriam "parado" no céu, um evento que Velikovsky relacionou com uma interrupção da rotação da Terra causada pela força gravitacional de Vênus.</p>
+            <p>Velikovsky sugeriu que o planeta Vênus fez mais de uma passagem perigosa pela Terra. Cada uma dessas aproximações teria causado novos desastres. Uma delas, segundo ele, aconteceu durante o Êxodo dos hebreus do Egito, causando as Dez Pragas. Outra aproximação teria ocorrido durante a batalha de Josué, quando o Sol e a Lua teriam parado no céu, um evento que Velikovsky relacionou com uma interrupção da rotação da Terra causada pela força gravitacional de Vênus.</p>
           </div>
 
           <div className="conteudo">
@@ -49,7 +53,6 @@ export default function RotaUm() {
             <p>Embora suas ideias tenham sido amplamente rejeitadas pela ciência convencional, o trabalho de Velikovsky ajudou a reviver o interesse pelo catastrofismo (a ideia de que eventos cataclísmicos moldam a Terra, embora em escalas menores e mais raras). Em contraste com o uniformitarianismo, que foi dominante desde o século XIX, o catastrofismo moderno reconhece que impactos de asteroides, erupções vulcânicas massivas e outros eventos podem ter efeitos significativos na Terra. <br />
             Em resumo, o catastrofismo celestial de Velikovsky foi uma tentativa de usar catástrofes cósmicas como chave para explicar eventos históricos e mitológicos. Embora suas teorias tenham sido rejeitadas pela comunidade científica, elas deixaram um legado interessante na forma como algumas pessoas continuam a explorar a relação entre astronomia e história antiga.</p>
           </div>
-
       </div>
       
     )

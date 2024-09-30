@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Nasa from "./nasa/page";
+import Nasa from "./nasas/nasa/page";
 
 export default function Home() {
   return (
@@ -7,7 +7,6 @@ export default function Home() {
     <div className="container-ilu">
 
         <div className="conteudo">
-        <Nasa/>
         </div>
 
     </div>
