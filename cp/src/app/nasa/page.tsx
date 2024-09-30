@@ -2,7 +2,7 @@
 import { NasaImage } from '../../types/types';
 import { useEffect, useState } from "react";
 
-export default function Pages() {
+export default function Nasa() {
   const [images, setImages] = useState<NasaImage[]>([]);  
   const [error, setError] = useState<string | null>(null);  
 
