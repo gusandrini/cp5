@@ -3,8 +3,8 @@ export default function RotaTres() {
 
       <div className="container">
 
-          <div className="titulo">
-            <h1>3. Revisão da Cronologia Histórica</h1> <br /><strong></strong><br />
+          <div>
+            <h1  className="titulo">3. Revisão da Cronologia Histórica</h1>
             <p>A revisão da cronologia histórica proposta por Immanuel Velikovsky é uma das suas ideias mais ambiciosas e controversas, apresentada em Worlds in Collision e expandida em outros livros, como Ages in Chaos (Idades no Caos). Velikovsky acreditava que a cronologia aceita pela historiografia e arqueologia estava incorreta, especialmente no que se refere à história antiga do Egito, Oriente Médio e Mediterrâneo. Ele argumentava que as datas tradicionalmente atribuídas a eventos históricos eram baseadas em suposições equivocadas e precisavam ser drasticamente revistas para que sua teoria de catástrofes cósmicas fizesse sentido.</p>
           </div>
 

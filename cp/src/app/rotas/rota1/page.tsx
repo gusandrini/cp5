@@ -1,8 +1,8 @@
 export default function RotaUm() {
     return (
       <div className="container">
-          <div className="titulo">
-            <h1>1. Catastrofismo Celestial</h1>
+          <div>
+            <h1  className="titulo">1. Catastrofismo Celestial</h1>
             <p>O catastrofismo celestial, como proposto por Immanuel Velikovsky em Worlds in Collision, é a ideia de que eventos cósmicos violentos, envolvendo grandes corpos celestes, tiveram um impacto direto e devastador sobre a Terra e moldaram a história da humanidade. Esse conceito vai contra a visão científica predominante, que se baseia no uniformitarianismo, a ideia de que os processos geológicos e climáticos acontecem de forma gradual ao longo de milhões de anos.</p>
           </div>
 

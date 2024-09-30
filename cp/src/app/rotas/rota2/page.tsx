@@ -1,9 +1,9 @@
 export default function RotaDois() {
     return (
       <div className="container">
-        
-          <div className="titulo">
-            <h1>2. Interpretação Alternativa de Mitos e Religiões</h1>
+
+          <div>
+            <h1  className="titulo">2. Interpretação Alternativa de Mitos e Religiões</h1>
             <p>A interpretação alternativa de mitos e religiões é uma das abordagens mais polêmicas de Immanuel Velikovsky em seu livro Worlds in Collision. Nessa ideia, Velikovsky sugeriu que muitos dos mitos, lendas e textos religiosos antigos não são simplesmente alegorias ou símbolos, mas sim registros históricos reais de catástrofes cósmicas que afetaram a Terra. Ele acreditava que civilizações antigas testemunharam eventos astronômicos dramáticos e os registraram em suas tradições orais e escritas, interpretando-os à luz de suas visões de mundo e estruturas religiosas.</p>
           </div>
 

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Menu() {
   return (
-    <nav>
+    <nav className="menu">
         <ul>
             <li> <Link href="/">Home</Link> </li>
             <li> <Link href="/rotas/rota1">Catastrofismo Celestial</Link> </li>

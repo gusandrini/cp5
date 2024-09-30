@@ -1,6 +1,6 @@
 export default function Rodape() {
     return (
-      <footer>
+      <footer className="rodape">
           <h2>Integrantes: Gustavo Sandrini e Eduarda Tiemi</h2>
       </footer>
     )

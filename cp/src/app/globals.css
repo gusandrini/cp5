@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+    .container{
+        @apply m-auto p-10; 
+    }
+    .cabecalho{
+        @apply bg-blue-100 text-center ;
+    }
+    .menu{
+        @apply bg-blue-800 text-white text-3xl p-4 w-[100vw] h-[30vh] m-auto text-center;
+    }
+    .rodape{
+        @apply bg-blue-800 text-white text-3xl p-4 m-auto text-center;
+    }
+    .titulo, .sub-titulo{
+        @apply bg-blue-100 text-black font-bold text-3xl
+    }
+    
+    .conteudo{
+        h3{
+            @apply bg-blue-100 text-black font-bold text-2xl
+        }
+    }
+    .home{
+        @apply bg-blue-100 text-black text-2xl p-40 w-[100vw] h-[57vh] m-auto text-center;
+    }
+
+    
+}
+
+
