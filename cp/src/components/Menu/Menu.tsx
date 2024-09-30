@@ -5,10 +5,10 @@ export default function Menu() {
     <nav>
         <ul>
             <li> <Link href="/">Home</Link> </li>
-            <li> <Link href="/rotas/rota1">Rota1</Link> </li>
-            <li> <Link href="/rotas/rota2">Rota2</Link> </li>
-            <li> <Link href="/rotas/rota3">Rota3</Link> </li>
-            <li> <Link href="/rotas/rota4">Rota4</Link> </li>
+            <li> <Link href="/rotas/rota1">Catastrofismo Celestial</Link> </li>
+            <li> <Link href="/rotas/rota2">Interpretação Alternativa de Mitos e Religiões</Link> </li>
+            <li> <Link href="/rotas/rota3">Revisão da Cronologia Histórica</Link> </li>
+            <li> <Link href="/rotas/rota4">Cálculo de Velikovsky</Link> </li>
         </ul>
     </nav>
   )
