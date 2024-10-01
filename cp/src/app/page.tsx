@@ -1,5 +1,3 @@
-import Link from "next/link";
-import Nasa from "./nasas/nasa/page";
 
 export default function Home() {
   return (
