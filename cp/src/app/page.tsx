@@ -2,9 +2,9 @@
 export default function Home() {
   return (
 
-    <div className="container">
+    <div className="">
 
-        <div className="conteudo">
+        <div className="home">
           <p>Livro Worlds in Collision, de Immanuel Velikovsky</p>
         </div>
 
